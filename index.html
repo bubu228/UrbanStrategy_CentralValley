@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CentralValleyDashboard</title>
+<meta name="apple-mobile-web-app-title" content="CentralValleyDashboard">
+<meta name="generator" content="In5 v3.8.11">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta property="og:title" content="CentralValleyDashboard">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+<meta property="og:image" content="assets/images/social-share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website" />
+<script type="text/javascript">
+var ogURL = location.href;
+var ogIMG = document.head.querySelector('meta[property="og:image"]');
+if(ogIMG.content.indexOf("://"<0)){ogIMG.content = ogURL.slice(0,ogURL.lastIndexOf("/"))+"/"+ogIMG.content;}
+document.head.querySelector('meta[property="og:url"]').content=ogURL;
+</script>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=.2,maximum-scale=1.0,user-scalable=no">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
+<script type="text/javascript" src="assets/js/vmouse.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="assets/js/in5.config.js"></script>
+<link rel="stylesheet" href="assets/css/pages.css" media="all">
+<style media="all and (-ms-high-contrast:none)">*::-ms-backdrop,.svg-img{width:100%;}</style>
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<div id="loadIndicator"><img src="assets/images/loading.gif" alt="loading..."/><span>&nbsp;</span></div>
+<div id="container-wrap">
+<div id="container">
+<ul class="pages paper-vertical one-page-scroll" id="slider">
+  <li class="page" data-name="1">
+    <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:1920px;height:1080px;">
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:422px !important;" id="item3607" class="pageItem " data-src="assets/images/item_3607.png"/>
+      <button data-id="17619" name="Precipitation" aria-label="Precipitation" id="item17619" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item3779" class="pageItem " data-src="assets/images/item_3779.png"/>
+          <img src="assets/images/blank.gif" alt="Rectangle" style="left:520px !important;top:86px !important;" id="item21762" class="pageItem " data-src="assets/images/item_21762.png"/>
+        </div>
+      </button>
+      <button data-id="17706" name="Lakes" aria-label="Lakes" id="item17706" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item3836" class="pageItem " data-src="assets/images/item_3836.png"/>
+        </div>
+      </button>
+      <button data-id="17746" name="Rivers" aria-label="Rivers" id="item17746" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item3911" class="pageItem " data-src="assets/images/item_3911.png"/>
+        </div>
+      </button>
+      <button data-id="17755" name="State Project" aria-label="State Project" id="item17755" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item3934" class="pageItem " data-src="assets/images/item_3934.png"/>
+        </div>
+      </button>
+      <button data-id="17782" name="Local Project" aria-label="Local Project" id="item17782" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item3961" class="pageItem " data-src="assets/images/item_3961.png"/>
+        </div>
+      </button>
+      <button data-id="19649" name="WS_Groundwater" aria-label="WS_Groundwater" id="item19649" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" style="left:697px !important;top:61px !important;" id="item21770" class="pageItem " data-src="assets/images/item_21770.png"/>
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item18773" class="pageItem " data-src="assets/images/item_18773.png"/>
+        </div>
+      </button>
+      <button data-id="19647" name="WS_Colorado" aria-label="WS_Colorado" id="item19647" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19480" class="pageItem " data-src="assets/images/item_19480.png"/>
+        </div>
+      </button>
+      <button data-id="19645" name="WS_Instream" aria-label="WS_Instream" id="item19645" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" style="left:944px !important;top:53px !important;" id="item21840" class="pageItem " data-src="assets/images/item_21840.png"/>
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19575" class="pageItem " data-src="assets/images/item_19575.png"/>
+        </div>
+      </button>
+      <button data-id="19643" name="WS_Localproject" aria-label="WS_Localproject" id="item19643" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19579" class="pageItem " data-src="assets/images/item_19579.png"/>
+          <img src="assets/images/blank.gif" alt="local_legend" style="left:711px !important;top:410px !important;" id="item21774" class="pageItem " data-src="assets/images/item_21774.png"/>
+        </div>
+      </button>
+      <button data-id="19640" name="WS_Reusewater" aria-label="WS_Reusewater" id="item19640" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19583" class="pageItem " data-src="assets/images/item_19583.png"/>
+          <img src="assets/images/blank.gif" alt="reuse_legend" style="left:944px !important;top:247px !important;" id="item21636" class="pageItem " data-src="assets/images/item_21636.png"/>
+        </div>
+      </button>
+      <button data-id="19638" name="WS_StateProject" aria-label="WS_StateProject" id="item19638" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19587" class="pageItem " data-src="assets/images/item_19587.png"/>
+          <img src="assets/images/blank.gif" alt="legend" style="left:711px !important;top:247px !important;" id="item21613" class="pageItem " data-src="assets/images/item_21613.png"/>
+        </div>
+      </button>
+      <button data-id="342" name="Lakes_Button_Off" data-click-hide="342,17706" data-click-show="17714" aria-label="Lakes_Button_Off" id="item342" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item363" class="pageItem singleline">
+            <p class="autoParaStyle1">Lakes</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="390" name="Rivers_Button_Off" data-click-hide="390,17746" data-click-show="17748" aria-label="Rivers_Button_Off" id="item390" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item411" class="pageItem singleline">
+            <p class="autoParaStyle1">Rivers</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17765" name="canals_all_button_off" data-click-hide="17757,17759,17765,17784,17787" data-click-show="17768" aria-label="canals_all_button_off" id="item17765" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item459" class="pageItem singleline">
+            <p class="autoParaStyle1">Canals</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17759" name="State Project_button_off" data-click-hide="17755,17759" data-click-show="17757" aria-label="State Project_button_off" id="item17759" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item1188" class="pageItem singleline">
+            <p class="autoParaStyle1">State Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17787" name="LocalProject_button_off" data-click-hide="17782,17787" data-click-show="17784" aria-label="LocalProject_button_off" id="item17787" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item1237" class="pageItem singleline">
+            <p class="autoParaStyle1">Local Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="1936" name="Precipitation_button_off" data-click-hide="1936,17619" data-click-show="16156" aria-label="Precipitation_button_off" id="item1936" class="pageItem hidden has-on ">
+        <div class="pageItem state btn-off">
+          <div id="item1939" class="pageItem singleline">
+            <p class="autoParaStyle1">Precipitation</p>
+          </div>
+        </div>
+        <div class="pageItem state btn-on">
+          <div id="item17679" class="pageItem singleline">
+            <p class="autoParaStyle1">Precipitation</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19815" name="WS_ground_off" data-click-hide="19649,19815" data-click-show="19812" aria-label="WS_ground_off" id="item19815" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item19652" class="pageItem singleline">
+            <p class="autoParaStyle1">Groundwater</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19784" name="WS_State_off" data-click-hide="19638,19784" data-click-show="19781" aria-label="WS_State_off" id="item19784" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item19675" class="pageItem singleline">
+            <p class="autoParaStyle1">State Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19805" name="WS_local_off" data-click-hide="19643,19805" data-click-show="19802" aria-label="WS_local_off" id="item19805" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item19698" class="pageItem singleline">
+            <p class="autoParaStyle1">Local Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19790" name="WS_instream_off" data-click-hide="19645,19790" data-click-show="19787" aria-label="WS_instream_off" id="item19790" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item19721" class="pageItem singleline">
+            <p class="autoParaStyle1">Instream Environment</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19797" name="WS_reuse_off" data-click-hide="19640,19797" data-click-show="19793" aria-label="WS_reuse_off" id="item19797" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item19744" class="pageItem singleline">
+            <p class="autoParaStyle1">Reuse Water</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17714" name="Lakes_button_on" data-click-hide="17714" data-click-show="342,17706" aria-label="Lakes_button_on" id="item17714" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15909" class="pageItem singleline">
+            <p class="autoParaStyle1">Lakes</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17748" name="Rivers_Button_On" data-click-hide="17748" data-click-show="390,17746" aria-label="Rivers_Button_On" id="item17748" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15960" class="pageItem singleline">
+            <p class="autoParaStyle1">Rivers</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17768" name="canals_all_button_on" data-click-hide="17768" data-click-show="17757,17765,17784" aria-label="canals_all_button_on" id="item17768" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16009" class="pageItem singleline">
+            <p class="autoParaStyle1">Canals</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17757" name="State Project_button_on" data-click-hide="17757" data-click-show="17755,17759" aria-label="State Project_button_on" id="item17757" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16059" class="pageItem singleline">
+            <p class="autoParaStyle1">State Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17784" name="LocalProject_button_on" data-click-hide="17784" data-click-show="17782,17787" aria-label="LocalProject_button_on" id="item17784" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16109" class="pageItem singleline">
+            <p class="autoParaStyle1">Local Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16156" name="Precipitation_button_on" data-click-hide="16156" data-click-show="1936,17619" aria-label="Precipitation_button_on" id="item16156" class="pageItem has-on ">
+        <div class="pageItem state btn-off">
+          <div id="item16159" class="pageItem singleline">
+            <p class="autoParaStyle1">Precipitation</p>
+          </div>
+        </div>
+        <div class="pageItem state btn-on">
+          <div id="item17653" class="pageItem singleline">
+            <p class="autoParaStyle1">Precipitation</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19812" name="WS_ground_on" data-click-hide="19812" data-click-show="19649,19815" aria-label="WS_ground_on" id="item19812" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item17944" class="pageItem singleline">
+            <p class="autoParaStyle1">Groundwater</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19781" name="WS_State_on" data-click-hide="19781" data-click-show="19638,19784" aria-label="WS_State_on" id="item19781" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item17967" class="pageItem singleline">
+            <p class="autoParaStyle1">State Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19802" name="WS_Local_on" data-click-hide="19802" data-click-show="19643,19805" aria-label="WS_Local_on" id="item19802" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item17990" class="pageItem singleline">
+            <p class="autoParaStyle1">Local Project</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19787" name="WS_instream_on" data-click-hide="19787" data-click-show="19645,19790" aria-label="WS_instream_on" id="item19787" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18171" class="pageItem singleline">
+            <p class="autoParaStyle1">Instream Environment</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19793" name="WS_reuse_on" data-click-hide="19793" data-click-show="19640,19797" aria-label="WS_reuse_on" id="item19793" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18194" class="pageItem singleline">
+            <p class="autoParaStyle1">Reuse Water</p>
+          </div>
+        </div>
+      </button>
+      <div id="item691" class="pageItem singleline align-vert">
+        <div class="valign-center">
+          <p class="autoParaStyle2">Water  in California</p>
+        </div>
+      </div>
+      <div id="item713" class="pageItem">
+        <p class="autoParaStyle4"><br /></p>
+        <p class="autoParaStyle4">State Water Project</p>
+        <p class="autoParaStyle4">California’s State Water Project (SWP) was constructed in the 1960s and 1970s to supply water to more than 27 million people and 750,000 acres of farmland. Planned, constructed,and operated by DWR, it is one of the world’s most extensive systems of dams, reservoirs, power plants, pumping plants and aqueducts and remains key to California’s economy. The Edmonston Pumping Plant, south of the Tehachapi Mountains, pumps water 1,926 feet up and over the ridge into Southern California, making it the world’s tallest water lift.</p>
+        <p class="autoParaStyle4"><br /></p>
+        <p class="autoParaStyle4">Local Project</p>
+        <p class="autoParaStyle4">Dataset represents centerlines of major water project canals that are managed by local area government agencies or entities.</p>
+        <p class="autoParaStyle4"><br /></p>
+        <p class="autoParaStyle4">Water Use</p>
+        <p class="autoParaStyle4">California has many competing needs for water. Cities, farms, and fish have been pitted against each other for more than a century in a 3-way tug-of-war for a sustainable supply of water. Sustainable groundwater management has been given a high priority as aquifers continue to be over pumped in many areas, particularly during dry periods when surface water to sustain agricultural yields is in short supply.</p>
+        <p class="autoParaStyle4"><br /></p>
+        <p class="autoParaStyle4"><br /></p>
+        <p class="autoParaStyle3">Source: https://water.ca.gov/water-basics/the-california-water-system</p>
+      </div>
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:25px !important;top:1039px !important;" id="item716" class="pageItem " data-src="assets/images/item_716.png"/>
+      <div id="item1309" class="pageItem singleline">
+        <p class="autoParaStyle1">Water</p>
+      </div>
+      <div id="item17798" class="pageItem singleline">
+        <p class="autoParaStyle1">Water Supply (MAF)</p>
+      </div>
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:600px !important;top:962px !important;" id="item16440" class="pageItem " data-src="assets/images/item_16440.png"/>
+      <div id="item504" class="pageItem singleline">
+        <p class="autoParaStyle5">Urban Strategy 2022-23</p>
+      </div>
+      <div id="item526" class="pageItem singleline">
+        <p class="autoParaStyle5">Jie Shao, Wenqin Ma</p>
+      </div>
+      <button data-id="17557" name="Button 63" onclick="nav.next(this);" aria-label="Button 63" id="item17557" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="GraphicLine" style="height: 32px !important;left:32px !important;top:64px !important;" id="item17560" class="pageItem " data-src="assets/images/item_17560.png"/>
+          <img src="assets/images/blank.gif" alt="5 Things to Know " class="pageItem hd" id="item17563" data-src="assets/images/item_17563.png"/>
+        </div>
+      </button>
+    </div>
+  </li>
+  <li class="page" data-name="2">
+    <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:1920px;height:1080px;">
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:420px !important;" id="item7521" class="pageItem " data-src="assets/images/item_7521.png"/>
+      <button data-id="20250" name="regionname" aria-label="regionname" id="item20250" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20222" class="pageItem " data-src="assets/images/item_20222.png"/>
+        </div>
+      </button>
+      <button data-id="20296" name="WU_SR" aria-label="WU_SR" id="item20296" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10105" class="pageItem " data-src="assets/images/item_10105.png"/>
+        </div>
+      </button>
+      <button data-id="20298" name="WU_SJ" aria-label="WU_SJ" id="item20298" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10119" class="pageItem " data-src="assets/images/item_10119.png"/>
+        </div>
+      </button>
+      <button data-id="20300" name="WU_TL" aria-label="WU_TL" id="item20300" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10135" class="pageItem " data-src="assets/images/item_10135.png"/>
+        </div>
+      </button>
+      <button data-id="20318" name="WU_legend" aria-label="WU_legend" id="item20318" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20302" class="pageItem " data-src="assets/images/item_20302.png"/>
+        </div>
+      </button>
+      <button data-id="14986" name="AGWU_SR" aria-label="AGWU_SR" id="item14986" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.79;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10247" class="pageItem " data-src="assets/images/item_10247.png"/>
+        </div>
+      </button>
+      <button data-id="14988" name="AGWU_SJ" aria-label="AGWU_SJ" id="item14988" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.79;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10251" class="pageItem " data-src="assets/images/item_10251.png"/>
+        </div>
+      </button>
+      <button data-id="14990" name="AGWU_TL" aria-label="AGWU_TL" id="item14990" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.79;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10256" class="pageItem " data-src="assets/images/item_10256.png"/>
+        </div>
+      </button>
+      <button data-id="20398" name="AG_waterlegend" aria-label="AG_waterlegend" id="item20398" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20388" class="pageItem " data-src="assets/images/item_20388.png"/>
+        </div>
+      </button>
+      <button data-id="14721" name="Urbanwater_SR" aria-label="Urbanwater_SR" id="item14721" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item11096" class="pageItem " data-src="assets/images/item_11096.png"/>
+        </div>
+      </button>
+      <button data-id="14723" name="Urbanwater_SJ" aria-label="Urbanwater_SJ" id="item14723" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item11100" class="pageItem " data-src="assets/images/item_11100.png"/>
+        </div>
+      </button>
+      <button data-id="14725" name="Urbanwater_TL" aria-label="Urbanwater_TL" id="item14725" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item11104" class="pageItem " data-src="assets/images/item_11104.png"/>
+        </div>
+      </button>
+      <button data-id="20366" name="WUurban_legend" aria-label="WUurban_legend" id="item20366" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20363" class="pageItem " data-src="assets/images/item_20363.png"/>
+        </div>
+      </button>
+      <button data-id="15543" name="Primeland_SR" aria-label="Primeland_SR" id="item15543" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10188" class="pageItem " data-src="assets/images/item_10188.png"/>
+        </div>
+      </button>
+      <button data-id="15545" name="Primeland_SJ" aria-label="Primeland_SJ" id="item15545" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10193" class="pageItem " data-src="assets/images/item_10193.png"/>
+        </div>
+      </button>
+      <button data-id="15547" name="Primeland_TL" aria-label="Primeland_TL" id="item15547" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10197" class="pageItem " data-src="assets/images/item_10197.png"/>
+        </div>
+      </button>
+      <button data-id="20448" name="Prime_legend169" aria-label="Prime_legend169" id="item20448" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.7;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20447" class="pageItem " data-src="assets/images/item_20447.png"/>
+        </div>
+      </button>
+      <button data-id="17419" name="Meanacres_TL" aria-label="Meanacres_TL" id="item17419" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16447" class="pageItem " data-src="assets/images/item_16447.png"/>
+        </div>
+      </button>
+      <button data-id="17417" name="Meanacres_SJ" aria-label="Meanacres_SJ" id="item17417" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16452" class="pageItem " data-src="assets/images/item_16452.png"/>
+        </div>
+      </button>
+      <button data-id="17410" name="Meanacres_SR" aria-label="Meanacres_SR" id="item17410" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16457" class="pageItem " data-src="assets/images/item_16457.png"/>
+        </div>
+      </button>
+      <button data-id="20502" name="meanacres_legend174" aria-label="meanacres_legend174" id="item20502" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20501" class="pageItem " data-src="assets/images/item_20501.png"/>
+        </div>
+      </button>
+      <button data-id="16744" name="&largest_TL" aria-label="&largest_TL" id="item16744" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16505" class="pageItem " data-src="assets/images/item_16505.png"/>
+        </div>
+      </button>
+      <button data-id="16742" name="&largest_SJ" aria-label="&largest_SJ" id="item16742" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16510" class="pageItem " data-src="assets/images/item_16510.png"/>
+        </div>
+      </button>
+      <button data-id="16740" name="&largest_SR" aria-label="&largest_SR" id="item16740" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16515" class="pageItem " data-src="assets/images/item_16515.png"/>
+        </div>
+      </button>
+      <button data-id="20480" name="largest_legend172" aria-label="largest_legend172" id="item20480" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20479" class="pageItem " data-src="assets/images/item_20479.png"/>
+        </div>
+      </button>
+      <button data-id="16733" name="GDP_SR" aria-label="GDP_SR" id="item16733" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item12174" class="pageItem " data-src="assets/images/item_12174.png"/>
+        </div>
+      </button>
+      <button data-id="16735" name="GDP_SJ" aria-label="GDP_SJ" id="item16735" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item12178" class="pageItem " data-src="assets/images/item_12178.png"/>
+        </div>
+      </button>
+      <button data-id="16737" name="GDP_TL" aria-label="GDP_TL" id="item16737" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item12182" class="pageItem " data-src="assets/images/item_12182.png"/>
+        </div>
+      </button>
+      <button data-id="20491" name="gdp_legend173" aria-label="gdp_legend173" id="item20491" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20489" class="pageItem " data-src="assets/images/item_20489.png"/>
+        </div>
+      </button>
+      <button data-id="16563" name="Ownership_TL" aria-label="Ownership_TL" id="item16563" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.7;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16385" class="pageItem " data-src="assets/images/item_16385.png"/>
+        </div>
+      </button>
+      <button data-id="16561" name="Ownership_SJ" aria-label="Ownership_SJ" id="item16561" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.7;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16390" class="pageItem " data-src="assets/images/item_16390.png"/>
+        </div>
+      </button>
+      <button data-id="16559" name="Ownership_SR" aria-label="Ownership_SR" id="item16559" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.7;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16395" class="pageItem " data-src="assets/images/item_16395.png"/>
+        </div>
+      </button>
+      <button data-id="20469" name="owner_legend171" aria-label="owner_legend171" id="item20469" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20468" class="pageItem " data-src="assets/images/item_20468.png"/>
+        </div>
+      </button>
+      <button data-id="16557" name="Gini_TL" aria-label="Gini_TL" id="item16557" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16283" class="pageItem " data-src="assets/images/item_16283.png"/>
+        </div>
+      </button>
+      <button data-id="16555" name="Gini_SJ" aria-label="Gini_SJ" id="item16555" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16284" class="pageItem " data-src="assets/images/item_16284.png"/>
+        </div>
+      </button>
+      <button data-id="16553" name="Gini_SR" aria-label="Gini_SR" id="item16553" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item16290" class="pageItem " data-src="assets/images/item_16290.png"/>
+        </div>
+      </button>
+      <button data-id="20457" name="Gini_legend170" aria-label="Gini_legend170" id="item20457" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20456" class="pageItem " data-src="assets/images/item_20456.png"/>
+        </div>
+      </button>
+      <button data-id="15349" name="AG sales_SR" aria-label="AG sales_SR" id="item15349" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10849" class="pageItem " data-src="assets/images/item_10849.png"/>
+        </div>
+      </button>
+      <button data-id="15351" name="AG sales_ SJ" aria-label="AG sales_ SJ" id="item15351" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10853" class="pageItem " data-src="assets/images/item_10853.png"/>
+        </div>
+      </button>
+      <button data-id="15353" name="AG sales_TL" aria-label="AG sales_TL" id="item15353" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item10857" class="pageItem " data-src="assets/images/item_10857.png"/>
+        </div>
+      </button>
+      <button data-id="20407" name="AGsales_legend168" aria-label="AGsales_legend168" id="item20407" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20406" class="pageItem " data-src="assets/images/item_20406.png"/>
+        </div>
+      </button>
+      <button data-id="11550" name="WU_SR_Button_Off " data-click-hide="11550,20296,20318" data-click-show="14268" aria-label="WU_SR_Button_Off " id="item11550" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item11553" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14712" name="WU_TL_button off" data-click-hide="14712,20300,20318" data-click-show="14589" aria-label="WU_TL_button off" id="item14712" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item11625" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14388" name="WU_SJ_button_off" data-click-hide="14388,20298,20318" data-click-show="14385" aria-label="WU_SJ_button_off" id="item14388" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item13250" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14904" name="UrbanWU_TL_Button_off2" data-click-hide="14725,14904,20366" data-click-show="14728" aria-label="UrbanWU_TL_Button_off2" id="item14904" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item14907" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14930" name="UrbanWU_SR_Button_off 4" data-click-hide="14721,14930,20366" data-click-show="14754" aria-label="UrbanWU_SR_Button_off 4" id="item14930" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item14933" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14957" name="UrbanWU_SJ_Button_off 2" data-click-hide="14723,14957,20366" data-click-show="14781" aria-label="UrbanWU_SJ_Button_off 2" id="item14957" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item14960" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15074" name="AGWU_TL_Button_off" data-click-hide="14990,15074,20398" data-click-show="14992" aria-label="AGWU_TL_Button_off" id="item15074" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15077" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15100" name="AGWU_SR_Button_OFF 4" data-click-hide="14986,15100,20398" data-click-show="15018" aria-label="AGWU_SR_Button_OFF 4" id="item15100" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15103" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15126" name="AGWU_SJ_Button_OFF" data-click-hide="14988,15126,20398" data-click-show="15044" aria-label="AGWU_SJ_Button_OFF" id="item15126" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15129" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15435" name="AGsales_TL_Button_off" data-click-hide="15353,15435,20407" data-click-show="15355" aria-label="AGsales_TL_Button_off" id="item15435" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15438" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15461" name="AGsales_SR_Button_off" data-click-hide="15349,15461,20407" data-click-show="15381" aria-label="AGsales_SR_Button_off" id="item15461" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15464" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15487" name="AGsales_SJ_Button_off" data-click-hide="15351,15487,20407" data-click-show="15408" aria-label="AGsales_SJ_Button_off" id="item15487" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15490" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15656" name="PL_TL_Button_off" data-click-hide="15547,15656,20448" data-click-show="15578" aria-label="PL_TL_Button_off" id="item15656" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15659" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15684" name="PL_SR_Button_off" data-click-hide="15543,15684,20448" data-click-show="15604" aria-label="PL_SR_Button_off" id="item15684" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15687" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15710" name="PL_SJ_Button_off" data-click-hide="15545,15710,20448" data-click-show="15630" aria-label="PL_SJ_Button_off" id="item15710" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15713" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15821" name="Gini_TL_Button_off" data-click-hide="15821,16557,20457" data-click-show="15743" aria-label="Gini_TL_Button_off" id="item15821" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15824" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16565" name="Ownership_TL_Button_off 1" data-click-hide="14992,16563,16565,20469" data-click-show="16651" aria-label="Ownership_TL_Button_off 1" id="item16565" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16569" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15847" name="Gini_SR_Button_off" data-click-hide="15847,16553,20457" data-click-show="15769" aria-label="Gini_SR_Button_off" id="item15847" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15850" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16592" name="Ownership_SR_Button_off 1" data-click-hide="16559,16592,20469" data-click-show="16677" aria-label="Ownership_SR_Button_off 1" id="item16592" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16595" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15873" name="Gini_SJ_Button_off" data-click-hide="15873,16555,20457" data-click-show="15795" aria-label="Gini_SJ_Button_off" id="item15873" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item15876" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16618" name="Ownership_SJ_Button_off 1" data-click-hide="16561,16618,20469" data-click-show="16703" aria-label="Ownership_SJ_Button_off 1" id="item16618" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16621" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16926" name="%largest_TL_button_off" data-click-hide="16744,16926,20480" data-click-show="16760" aria-label="%largest_TL_button_off" id="item16926" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16929" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16952" name="%largest_SR_button_off" data-click-hide="16740,16952,20480" data-click-show="16786" aria-label="%largest_SR_button_off" id="item16952" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16955" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16978" name="%largest_SJ_button_off" data-click-hide="16742,16978,20480" data-click-show="16812" aria-label="%largest_SJ_button_off" id="item16978" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item16981" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17008" name="GDP_TL_Button_off" data-click-hide="16737,17008,20491" data-click-show="16842" aria-label="GDP_TL_Button_off" id="item17008" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item17011" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17034" name="GDP_SR_Button_off" data-click-hide="16733,17034,20491" data-click-show="16868" aria-label="GDP_SR_Button_off" id="item17034" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item17037" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17060" name="GDP_SJ_Button_off" data-click-hide="16735,17060,20491" data-click-show="16895" aria-label="GDP_SJ_Button_off" id="item17060" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item17063" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17422" name="Meanacres_TL_Button_off" data-click-hide="17419,17422,20502" data-click-show="17332" aria-label="Meanacres_TL_Button_off" id="item17422" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item17425" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17448" name="Meanacres_SR_Button_off" data-click-hide="17410,17448,20502" data-click-show="17358" aria-label="Meanacres_SR_Button_off" id="item17448" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item17451" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17474" name="Meanacres_SJ_Button_off" data-click-hide="17417,17474,20502" data-click-show="17384" aria-label="Meanacres_SJ_Button_off" id="item17474" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item17477" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20280" name="regioname_off" data-click-hide="20250,20280" data-click-show="20276" aria-label="regioname_off" id="item20280" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item20252" class="pageItem singleline">
+            <p class="autoParaStyle1">Hydrologic Region</p>
+          </div>
+        </div>
+      </button>
+      <div id="item13001" class="pageItem singleline">
+        <p class="autoParaStyle5">Urban Strategy 2022-23</p>
+      </div>
+      <button data-id="14589" name="WU_TL_button_on" data-click-hide="14589" data-click-show="14712,20300,20318" aria-label="WU_TL_button_on" id="item14589" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item13301" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14992" name="AGWU_TL_Button_on1" data-click-hide="14992" data-click-show="14990,15074,20398" aria-label="AGWU_TL_Button_on1" id="item14992" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item14995" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15355" name="AGsales_TL_Button_on" data-click-hide="15355" data-click-show="15353,15435,20407" aria-label="AGsales_TL_Button_on" id="item15355" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15358" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15578" name="PL_TL_Button_on 1" data-click-hide="15578" data-click-show="15547,15656,20448" aria-label="PL_TL_Button_on 1" id="item15578" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15581" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15743" name="Gini_TL_Button_on " data-click-hide="15743" data-click-show="15821,16557,20457" aria-label="Gini_TL_Button_on " id="item15743" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15746" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14268" name="WU_SR_Button_on 2" data-click-hide="14268" data-click-show="11550,20296,20318" aria-label="WU_SR_Button_on 2" id="item14268" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item14271" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15018" name="AGWU_SR_Button_on 3" data-click-hide="15018" data-click-show="14986,15100,20398" aria-label="AGWU_SR_Button_on 3" id="item15018" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15021" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15381" name="AGsales_SR_Button_on 4" data-click-hide="15381" data-click-show="15349,15461,20407" aria-label="AGsales_SR_Button_on 4" id="item15381" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15384" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15604" name="PL_SR_Button_on " data-click-hide="15604" data-click-show="15543,15684,20448" aria-label="PL_SR_Button_on " id="item15604" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15607" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15769" name="Gini_SR_Button_on  1" data-click-hide="15769" data-click-show="15847,16553,20457" aria-label="Gini_SR_Button_on 1" id="item15769" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15772" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14385" name="WU_SJ_button on" data-click-hide="14385" data-click-show="14388,20298,20318" aria-label="WU_SJ_button on" id="item14385" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item14326" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15044" name="AGWU_SJ_Button_on1" data-click-hide="15044" data-click-show="14988,15126,20398" aria-label="AGWU_SJ_Button_on1" id="item15044" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15047" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15408" name="AGsales_SJ_Button_on" data-click-hide="15408" data-click-show="15351,15487,20407" aria-label="AGsales_SJ_Button_on" id="item15408" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15411" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15630" name="PL_SJ_Button_on 1" data-click-hide="15630" data-click-show="15545,15710,20448" aria-label="PL_SJ_Button_on 1" id="item15630" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15633" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="15795" name="Gini_SJ_Button_on 2" data-click-hide="15795" data-click-show="15873,16555,20457" aria-label="Gini_SJ_Button_on 2" id="item15795" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item15798" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14728" name="UrbanWU_TL_Button_on1" data-click-hide="14728" data-click-show="14725,14904,20366" aria-label="UrbanWU_TL_Button_on1" id="item14728" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item14731" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14754" name="UrbanWU_SR_Button_on 3" data-click-hide="14754" data-click-show="14721,14930,20366" aria-label="UrbanWU_SR_Button_on 3" id="item14754" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item14757" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="14781" name="UrbanWU_SJ_Button_on 1" data-click-hide="14781" data-click-show="14723,14957,20366" aria-label="UrbanWU_SJ_Button_on 1" id="item14781" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item14784" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16651" name="Ownership_TL_Button_on" data-click-hide="16651" data-click-show="16563,16565,20469" aria-label="Ownership_TL_Button_on" id="item16651" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16654" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16760" name="%largest_TL_button_on" data-click-hide="16760" data-click-show="16744,16926,20480" aria-label="%largest_TL_button_on" id="item16760" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16763" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16677" name="Ownership_SR_Button_on" data-click-hide="16677" data-click-show="16559,16592,20469" aria-label="Ownership_SR_Button_on" id="item16677" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16680" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16786" name="%largest_SR_button_on" data-click-hide="16786" data-click-show="16740,16952,20480" aria-label="%largest_SR_button_on" id="item16786" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16789" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16703" name="Ownership_SJ_Button_on" data-click-hide="16703" data-click-show="16561,16618,20469" aria-label="Ownership_SJ_Button_on" id="item16703" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16706" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16812" name="%largest_SJ_button_on" data-click-hide="16812" data-click-show="16742,16978,20480" aria-label="%largest_SJ_button_on" id="item16812" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16815" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16842" name="GDP_TL_Button_on 2" data-click-hide="16842" data-click-show="16737,17008,20491" aria-label="GDP_TL_Button_on 2" id="item16842" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16845" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16868" name="GDP_SR_Button_on " data-click-hide="16868" data-click-show="16733,17034,20491" aria-label="GDP_SR_Button_on " id="item16868" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16872" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="16895" name="GDP_SJ_Button_on 2" data-click-hide="16895" data-click-show="16735,17060,20491" aria-label="GDP_SJ_Button_on 2" id="item16895" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item16899" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17332" name="Meanacres_TL_Button_on 3" data-click-hide="17332" data-click-show="17419,17422,20502" aria-label="Meanacres_TL_Button_on 3" id="item17332" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item17335" class="pageItem singleline">
+            <p class="autoParaStyle1">TL</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17358" name="Meanacres_SR_Button_on" data-click-hide="17358" data-click-show="17410,17448,20502" aria-label="Meanacres_SR_Button_on" id="item17358" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item17361" class="pageItem singleline">
+            <p class="autoParaStyle1">SR</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="17384" name="Meanacres_SJ_Button_on 3" data-click-hide="17384" data-click-show="17417,17474,20502" aria-label="Meanacres_SJ_Button_on 3" id="item17384" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item17387" class="pageItem singleline">
+            <p class="autoParaStyle1">SJ</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20276" name="regioname_on" data-click-hide="20276" data-click-show="20250,20280" aria-label="regioname_on" id="item20276" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item11479" class="pageItem singleline">
+            <p class="autoParaStyle1">Hydrologic Region</p>
+          </div>
+        </div>
+      </button>
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:25px !important;top:1034px !important;" id="item9486" class="pageItem " data-src="assets/images/item_9486.png"/>
+      <div id="item9608" class="pageItem singleline">
+        <p class="autoParaStyle1">Total Water Use</p>
+      </div>
+      <div id="item10061" class="pageItem singleline">
+        <p class="autoParaStyle1">Water Use in Urban</p>
+      </div>
+      <div id="item10613" class="pageItem singleline">
+        <p class="autoParaStyle1">Water Use in Agriculture</p>
+      </div>
+      <div id="item12755" class="pageItem singleline">
+        <p class="autoParaStyle1">Gini Coefficient</p>
+      </div>
+      <div id="item10800" class="pageItem singleline">
+        <p class="autoParaStyle1">Agriculture Sales</p>
+      </div>
+      <div id="item12778" class="pageItem singleline">
+        <p class="autoParaStyle1">Number of Ownership</p>
+      </div>
+      <div id="item11055" class="pageItem singleline">
+        <p class="autoParaStyle1">Primeland Acres</p>
+      </div>
+      <div id="item11297" class="pageItem">
+        <p class="autoParaStyle1">%Cropland Largest</p>
+        <p class="autoParaStyle1">Owner Controls</p>
+      </div>
+      <div id="item15520" class="pageItem singleline">
+        <p class="autoParaStyle1">GDP</p>
+      </div>
+      <div id="item15550" class="pageItem singleline">
+        <p class="autoParaStyle1">Mean Cropland Acres</p>
+      </div>
+      <div id="item9631" class="pageItem singleline align-vert">
+        <div class="valign-center">
+          <p class="autoParaStyle6">5 Things to Know</p>
+        </div>
+      </div>
+      <div id="item7684" class="pageItem singleline">
+        <p class="autoParaStyle5">Jie Shao, Wenqin Ma</p>
+      </div>
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:591px !important;top:957px !important;" id="item16752" class="pageItem " data-src="assets/images/item_16752.png"/>
+      <div id="item7661" class="pageItem singleline">
+        <p class="autoParaStyle5">Urban Strategy 2022-23</p>
+      </div>
+      <div id="item21880" class="pageItem">
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle8">Fact 1 Gini Coefficient &amp; Number of Ownership</p>
+        <p class="autoParaStyle8">In regions with more landowners or farmers, a higher value of the gini coefficient means greater inequality.</p>
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle9">Fact 2 %Cropland Largest Owner Controls &amp; Mean Cropland</p>
+        <p class="autoParaStyle9">Smaller family farm operators are more likely to be full owners of land they operate.</p>
+        <p class="autoParaStyle9">%Cropland Largest Owner Controls Shows what percentage of the farm is held by the largest holder.</p>
+        <p class="autoParaStyle9">Mean Cropland The larger the average farm size, the more land in the area is developed for agricultural use.</p>
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle8">Fact 3 Agriculture Sales &amp; Water Use</p>
+        <p class="autoParaStyle8">San Joaquin can make the use of the least water for irrigation and produces fair sales.</p>
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle8">Fact 4 Prime Farmland &amp; Groundwater Use</p>
+        <p class="autoParaStyle8">San Joaquin can make the use of the least water for irrigation and produces fair sales.</p>
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle8">Fact 5 GDP &amp; Urban Water Use</p>
+        <p class="autoParaStyle8">People think water use in urban produces more. Not really so.</p>
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle8"><br /></p>
+        <p class="autoParaStyle7">Source: https://water.ca.gov/water-basics/the-california-water-system</p>
+      </div>
+      <button data-id="17549" name="Button 62" onclick="nav.next(this);" aria-label="Button 62" id="item17549" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="GraphicLine" style="height: 32px !important;left:32px !important;top:64px !important;" id="item9491" class="pageItem " data-src="assets/images/item_9491.png"/>
+          <img src="assets/images/blank.gif" alt="Agriculture in CV " class="pageItem hd" style="left:-6px !important;" id="item9492" data-src="assets/images/item_9492.png"/>
+        </div>
+      </button>
+    </div>
+  </li>
+  <li class="page" data-name="3">
+    <div class="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style="width:1920px;height:1080px;">
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:420px !important;" id="item3625" class="pageItem " data-src="assets/images/item_3625.png"/>
+      <button data-id="19174" name="Fallow" aria-label="Fallow" id="item19174" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4169" class="pageItem " data-src="assets/images/item_4169.png"/>
+        </div>
+      </button>
+      <button data-id="19171" name="Crop Y" aria-label="Crop Y" id="item19171" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4161" class="pageItem " data-src="assets/images/item_4161.png"/>
+        </div>
+      </button>
+      <button data-id="19169" name="CropV" aria-label="CropV" id="item19169" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4146" class="pageItem " data-src="assets/images/item_4146.png"/>
+        </div>
+      </button>
+      <button data-id="19167" name="CropC" aria-label="CropC" id="item19167" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4100" class="pageItem " data-src="assets/images/item_4100.png"/>
+        </div>
+      </button>
+      <button data-id="19165" name="CropD" aria-label="CropD" id="item19165" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4135" class="pageItem " data-src="assets/images/item_4135.png"/>
+        </div>
+      </button>
+      <button data-id="19055" name="Field" aria-label="Field" id="item19055" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4126" class="pageItem " data-src="assets/images/item_4126.png"/>
+        </div>
+      </button>
+      <button data-id="19053" name="Hay" aria-label="Hay" id="item19053" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4117" class="pageItem " data-src="assets/images/item_4117.png"/>
+        </div>
+      </button>
+      <button data-id="19051" name="Pasture" aria-label="Pasture" id="item19051" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4112" class="pageItem " data-src="assets/images/item_4112.png"/>
+        </div>
+      </button>
+      <button data-id="18807" name="Rice" aria-label="Rice" id="item18807" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4093" class="pageItem " data-src="assets/images/item_4093.png"/>
+        </div>
+      </button>
+      <button data-id="19470" name="Household Dry" aria-label="Household Dry" id="item19470" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4519" class="pageItem " data-src="assets/images/item_4519.png"/>
+        </div>
+      </button>
+      <button data-id="19468" name="AGdry" aria-label="AGdry" id="item19468" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4528" class="pageItem " data-src="assets/images/item_4528.png"/>
+        </div>
+      </button>
+      <button data-id="19466" name="Domestic Wells" aria-label="Domestic Wells" id="item19466" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19454" class="pageItem " data-src="assets/images/item_19454.png"/>
+          <img src="assets/images/blank.gif" alt="Rectangle" style="left:1076px !important;top:348px !important;" id="item22230" class="pageItem " data-src="assets/images/item_22230.png"/>
+        </div>
+      </button>
+      <button data-id="19464" name="AGwells" aria-label="AGwells" id="item19464" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19453" class="pageItem " data-src="assets/images/item_19453.png"/>
+          <img src="assets/images/blank.gif" alt="Rectangle" style="left:1076px !important;top:210px !important;" id="item22216" class="pageItem " data-src="assets/images/item_22216.png"/>
+        </div>
+      </button>
+      <button data-id="19546" name="GWchange" aria-label="GWchange" id="item19546" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item19545" class="pageItem " data-src="assets/images/item_19545.png"/>
+          <img src="assets/images/blank.gif" alt="Rectangle" style="left:1292px !important;top:81px !important;" id="item21192" class="pageItem " data-src="assets/images/item_21192.png"/>
+        </div>
+      </button>
+      <button data-id="19532" name="Subsidence" aria-label="Subsidence" id="item19532" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" style="mix-blend-mode:multiply;" id="item19530" class="pageItem " data-src="assets/images/item_19530.png"/>
+        </div>
+      </button>
+      <button data-id="20111" name="Croplands" aria-label="Croplands" id="item20111" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20084" class="pageItem " data-src="assets/images/item_20084.png"/>
+        </div>
+      </button>
+      <button data-id="20107" name="Urbanareas" aria-label="Urbanareas" id="item20107" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20092" class="pageItem " data-src="assets/images/item_20092.png"/>
+        </div>
+      </button>
+      <button data-id="20109" name="Conserved Areas" aria-label="Conserved Areas" id="item20109" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item20106" class="pageItem " data-src="assets/images/item_20106.png"/>
+        </div>
+      </button>
+      <button data-id="19555" name="Drougt" aria-label="Drougt" id="item19555" class="pageItem hidden ">
+        <div class="pageItem state btn-off" style="opacity:0.8;">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4574" class="pageItem " data-src="assets/images/item_4574.png"/>
+        </div>
+      </button>
+      <button data-id="19557" name="Floods" aria-label="Floods" id="item19557" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="Rectangle" id="item4599" class="pageItem " data-src="assets/images/item_4599.png"/>
+        </div>
+      </button>
+      <button data-id="19048" name="R_off" data-click-hide="18807,19048" data-click-show="19036" aria-label="R_off" id="item19048" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2247" class="pageItem singleline">
+            <p class="autoParaStyle1">Rice</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19178" name="cropP_off" data-click-hide="19051,19178" data-click-show="19176" aria-label="cropP_off" id="item19178" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2296" class="pageItem singleline">
+            <p class="autoParaStyle1">Pasture</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19185" name="cropG_off" data-click-hide="19053,19185" data-click-show="19182" aria-label="cropG_off" id="item19185" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2346" class="pageItem singleline">
+            <p class="autoParaStyle1">Grain and Hay Crops</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19191" name="CropF_off" data-click-hide="19055,19191" data-click-show="19188" aria-label="CropF_off" id="item19191" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2395" class="pageItem singleline">
+            <p class="autoParaStyle1">Field Crops</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19198" name="CropD_off" data-click-hide="19165,19198" data-click-show="19195" aria-label="CropD_off" id="item19198" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2444" class="pageItem singleline">
+            <p class="autoParaStyle1">Deciduous Fruits and Nuts</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19207" name="CropC_off" data-click-hide="19167,19207" data-click-show="19203" aria-label="CropC_off" id="item19207" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2493" class="pageItem singleline">
+            <p class="autoParaStyle1">Citrus and Subtropical</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19213" name="CropV_off" data-click-hide="19169,19213" data-click-show="19210" aria-label="CropV_off" id="item19213" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2542" class="pageItem singleline">
+            <p class="autoParaStyle1">Vineyards</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19219" name="CropY_off" data-click-hide="19171,19219" data-click-show="19216" aria-label="CropY_off" id="item19219" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2592" class="pageItem singleline">
+            <p class="autoParaStyle1">Young Perennial</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19226" name="Fallow_off" data-click-hide="19174,19226" data-click-show="19223" aria-label="Fallow_off" id="item19226" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item2642" class="pageItem singleline">
+            <p class="autoParaStyle1">Unclassified Fallow</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19565" name="Drought_off" data-click-hide="19555,19565" data-click-show="19559" aria-label="Drought_off" id="item19565" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item3672" class="pageItem singleline">
+            <p class="autoParaStyle1">Drought</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19572" name="floods_off" data-click-hide="19557,19572" data-click-show="19568" aria-label="floods_off" id="item19572" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item3722" class="pageItem singleline">
+            <p class="autoParaStyle1">Floods</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19552" name="GWchange_off" data-click-hide="19546,19552" data-click-show="19549" aria-label="GWchange_off" id="item19552" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item1664" class="pageItem">
+            <p class="autoParaStyle1">Groundwater Seasonal Change</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19476" name="AGwells_off" data-click-hide="19464,19476" data-click-show="19473" aria-label="AGwells_off" id="item19476" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item1776" class="pageItem singleline">
+            <p class="autoParaStyle1">Irrigation Wells</p>
+          </div>
+        </div>
+      </button>
+      <div id="item1832" class="pageItem singleline">
+        <p class="autoParaStyle1">Dry Wells</p>
+      </div>
+      <button data-id="19537" name="Subsi_off" data-click-hide="19532,19537" data-click-show="19534" aria-label="Subsi_off" id="item19537" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item1885" class="pageItem singleline">
+            <p class="autoParaStyle1">Land Subsidence</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19497" name="Homewells_off" data-click-hide="19466,19497" data-click-show="19494" aria-label="Homewells_off" id="item19497" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item1992" class="pageItem singleline">
+            <p class="autoParaStyle1">Domestic Wells</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19504" name="DryHW_off" data-click-hide="19470,19504" data-click-show="19501" aria-label="DryHW_off" id="item19504" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item4402" class="pageItem singleline">
+            <p class="autoParaStyle1">Household</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19510" name="DryAG_off" data-click-hide="19468,19510" data-click-show="19507" aria-label="DryAG_off" id="item19510" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item4451" class="pageItem singleline">
+            <p class="autoParaStyle1">Irrigation</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20189" name="Urbanareas_off" data-click-hide="20107,20189" data-click-show="20185" aria-label="Urbanareas_off" id="item20189" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item20113" class="pageItem singleline">
+            <p class="autoParaStyle1">Urban Areas</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20195" name="Conserved_off" data-click-hide="20109,20195" data-click-show="20192" aria-label="Conserved_off" id="item20195" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item20136" class="pageItem singleline">
+            <p class="autoParaStyle1">Conserved Areas</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20199" name="Cropland_off" data-click-hide="20111,20199" data-click-show="20202" aria-label="Cropland_off" id="item20199" class="pageItem hidden ">
+        <div class="pageItem state btn-off">
+          <div id="item20159" class="pageItem singleline">
+            <p class="autoParaStyle1">Croplands</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19036" name="R_on" data-click-hide="19036" data-click-show="18807,19048" aria-label="R_on" id="item19036" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18827" class="pageItem singleline">
+            <p class="autoParaStyle1">Rice</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19176" name="cropP_on" data-click-hide="19176" data-click-show="19051,19178" aria-label="cropP_on" id="item19176" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18850" class="pageItem singleline">
+            <p class="autoParaStyle1">Pasture</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19182" name="cropG_on" data-click-hide="19182" data-click-show="19053,19185" aria-label="cropG_on" id="item19182" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18874" class="pageItem singleline">
+            <p class="autoParaStyle1">Grain and Hay Crops</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19188" name="CropF_on" data-click-hide="19188" data-click-show="19055,19191" aria-label="CropF_on" id="item19188" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18898" class="pageItem singleline">
+            <p class="autoParaStyle1">Field Crops</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19195" name="CropD_on" data-click-hide="19195" data-click-show="19165,19198" aria-label="CropD_on" id="item19195" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18921" class="pageItem singleline">
+            <p class="autoParaStyle1">Deciduous Fruits and Nuts</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19203" name="CropC_on" data-click-hide="19203" data-click-show="19167,19207" aria-label="CropC_on" id="item19203" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18944" class="pageItem singleline">
+            <p class="autoParaStyle1">Citrus and Subtropical</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19210" name="CropV_on" data-click-hide="19210" data-click-show="19169,19213" aria-label="CropV_on" id="item19210" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18967" class="pageItem singleline">
+            <p class="autoParaStyle1">Vineyards</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19216" name="CropY_on" data-click-hide="19216" data-click-show="19171,19219" aria-label="CropY_on" id="item19216" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item18990" class="pageItem singleline">
+            <p class="autoParaStyle1">Young Perennial</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19223" name="Fallow_on" data-click-hide="19223" data-click-show="19174,19226" aria-label="Fallow_on" id="item19223" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19013" class="pageItem singleline">
+            <p class="autoParaStyle1">Unclassified Fallow</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19549" name="GWchange_on" data-click-hide="19549" data-click-show="19546,19552" aria-label="GWchange_on" id="item19549" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19231" class="pageItem">
+            <p class="autoParaStyle1">Groundwater Seasonal Change</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19473" name="AGwells_on" data-click-hide="19473" data-click-show="19464,19476" aria-label="AGwells_on" id="item19473" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19254" class="pageItem singleline">
+            <p class="autoParaStyle1">Irrigation Wells</p>
+          </div>
+        </div>
+      </button>
+      <div id="item19277" class="pageItem singleline">
+        <p class="autoParaStyle1">Dry Wells</p>
+      </div>
+      <button data-id="19534" name="Subsi_on" data-click-hide="19534" data-click-show="19532,19537" aria-label="Subsi_on" id="item19534" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19300" class="pageItem singleline">
+            <p class="autoParaStyle1">Land Subsidence</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19494" name="Homewells_on" data-click-hide="19494" data-click-show="19466,19497" aria-label="Homewells_on" id="item19494" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19323" class="pageItem singleline">
+            <p class="autoParaStyle1">Domestic Wells</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19501" name="dryHW_on" data-click-hide="19501" data-click-show="19470,19504" aria-label="dryHW_on" id="item19501" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19346" class="pageItem singleline">
+            <p class="autoParaStyle1">Household</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19507" name="DryAG_on" data-click-hide="19507" data-click-show="19468,19510" aria-label="DryAG_on" id="item19507" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19369" class="pageItem singleline">
+            <p class="autoParaStyle1">Irrigation</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19559" name="drought_on" data-click-hide="19559" data-click-show="19555,19565" aria-label="drought_on" id="item19559" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19392" class="pageItem singleline">
+            <p class="autoParaStyle1">Drought</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="19568" name="floods_on" data-click-hide="19568" data-click-show="19557,19572" aria-label="floods_on" id="item19568" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19415" class="pageItem singleline">
+            <p class="autoParaStyle1">Floods</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20185" name="Urbanareas_on" data-click-hide="20185" data-click-show="20107,20189" aria-label="Urbanareas_on" id="item20185" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19905" class="pageItem singleline">
+            <p class="autoParaStyle1">Urban Areas</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20192" name="Conservedareas_on" data-click-hide="20192" data-click-show="20109,20195" aria-label="Conservedareas_on" id="item20192" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item19928" class="pageItem singleline">
+            <p class="autoParaStyle1">Conserved Areas</p>
+          </div>
+        </div>
+      </button>
+      <button data-id="20202" name="cropland_on" data-click-hide="20202" data-click-show="20111,20199" aria-label="cropland_on" id="item20202" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <div id="item20054" class="pageItem singleline">
+            <p class="autoParaStyle1">Croplands</p>
+          </div>
+        </div>
+      </button>
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:25px !important;top:1034px !important;" id="item1029" class="pageItem " data-src="assets/images/item_1029.png"/>
+      <img src="assets/images/blank.gif" alt="GraphicLine" style="height: 32px !important;left:1845px !important;top:696px !important;" id="item1037" class="pageItem " data-src="assets/images/item_1037.png"/>
+      <div id="item3524" class="pageItem singleline">
+        <p class="autoParaStyle1">Crop Distribution</p>
+      </div>
+      <div id="item19057" class="pageItem singleline">
+        <p class="autoParaStyle1">Land Use</p>
+      </div>
+      <div id="item3547" class="pageItem singleline">
+        <p class="autoParaStyle1">Groundwater Use</p>
+      </div>
+      <div id="item3644" class="pageItem singleline">
+        <p class="autoParaStyle1">Worst Scenarios</p>
+      </div>
+      <div id="item6687" class="pageItem singleline align-vert">
+        <div class="valign-center">
+          <p class="autoParaStyle10">Agriculture in Central Valley</p>
+        </div>
+      </div>
+      <div id="item839" class="pageItem singleline">
+        <p class="autoParaStyle5">Jie Shao, Wenqin Ma</p>
+      </div>
+      <div id="item817" class="pageItem singleline">
+        <p class="autoParaStyle5">Urban Strategy 2022-23</p>
+      </div>
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:600px !important;top:957px !important;" id="item21835" class="pageItem " data-src="assets/images/item_21835.png"/>
+      <div id="item21905" class="pageItem">
+        <p class="autoParaStyle12"><br /></p>
+        <p class="autoParaStyle12">California’s economy and culture have always been shaped by the abundance or scarcity of water.</p>
+        <p class="autoParaStyle12"><br /></p>
+        <p class="autoParaStyle12">The Golden State’s economy, agricultural production, and population have grown to number one in the nation, largely in pace with the development of its water resources.</p>
+        <p class="autoParaStyle12"><br /></p>
+        <p class="autoParaStyle12">California receives 75 percent of its rain and snow in the watersheds north of Sacramento. However, 80 percent of California’s water demand comes from the southern 2/3 of the state.</p>
+        <p class="autoParaStyle12"><br /></p>
+        <p class="autoParaStyle12">As people flocked to the mild climate and agricultural richness of southern California in the late 1800s and early 1900s, it was quickly apparent that the region’s water supply wouldn’t support the swelling population. Several water projects were built to import the precious resource to Southern California and the Central Valley.</p>
+        <p class="autoParaStyle12"><br /></p>
+        <p class="autoParaStyle11">Source: https://water.ca.gov/water-basics/the-california-water-system</p>
+      </div>
+      <img src="assets/images/blank.gif" alt="Rectangle" style="left:1257px !important;top:72px !important;mix-blend-mode:multiply;" id="item22330" class="pageItem " data-src="assets/images/item_22330.png"/>
+      <img src="assets/images/blank.gif" alt="Water Use More" class="pageItem hd" style="left:1239px !important;top:72px !important;" id="item22360" data-src="assets/images/item_22360.png"/>
+      <button data-id="20507" name="Button 2" onclick="nav.first();" aria-label="Button 2" id="item20507" class="pageItem ">
+        <div class="pageItem state btn-off">
+          <img src="assets/images/blank.gif" alt="GraphicLine" style="height: 32px !important;left:32px !important;top:72px !important;" id="item20510" class="pageItem " data-src="assets/images/item_20510.png"/>
+          <img src="assets/images/blank.gif" alt="Back to the First Map " class="pageItem hd" id="item20512" data-src="assets/images/item_20512.png"/>
+        </div>
+      </button>
+    </div>
+  </li>
+</ul>
+<div id="prefooter" style="float:left;height:1px;">&nbsp;</div>
+</div>
+<footer id="in5footer"><a href="http://ajarproductions.com/pages/products/in5/?ref=footer" target="_blank" >Built with in5</a>.</footer>
+</div>
+</body>
+</html>
